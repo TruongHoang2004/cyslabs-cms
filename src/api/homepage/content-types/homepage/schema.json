@@ -17,7 +17,8 @@
       "components": [
         "section.hero-section",
         "section.team",
-        "section.questions"
+        "section.questions",
+        "section.services"
       ]
     }
   }
