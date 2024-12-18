@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_questions",
+  "info": {
+    "displayName": "questions"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.meta-pair"
+    }
+  }
+}

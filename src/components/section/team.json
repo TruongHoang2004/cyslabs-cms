@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_teams",
+  "info": {
+    "displayName": "team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "employees": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::employee.employee"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

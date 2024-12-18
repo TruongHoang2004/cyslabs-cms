@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_meta_pairs",
+  "info": {
+    "displayName": "meta-pair"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

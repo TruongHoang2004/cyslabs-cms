@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_hero_sections",
+  "info": {
+    "displayName": "hero-section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "tags": {
+      "displayName": "tag",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.tag"
+    }
+  }
+}
