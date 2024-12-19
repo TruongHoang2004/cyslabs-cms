@@ -18,7 +18,8 @@
         "section.hero-section",
         "section.team",
         "section.questions",
-        "section.services"
+        "section.services",
+        "section.customers"
       ]
     }
   }

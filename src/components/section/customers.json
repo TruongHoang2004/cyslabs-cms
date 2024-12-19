@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_customers",
+  "info": {
+    "displayName": "customers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "customers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::customer.customer"
+    }
+  }
+}

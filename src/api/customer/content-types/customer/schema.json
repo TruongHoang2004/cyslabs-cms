@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "customers",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "product",
-    "description": ""
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "customer"
   },
   "options": {
     "draftAndPublish": true
@@ -15,10 +14,10 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "url": {
+      "type": "string"
+    },
+    "type": {
       "type": "string"
     }
   }

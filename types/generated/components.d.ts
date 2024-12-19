@@ -22,6 +22,18 @@ export interface ContentTag extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionCustomers extends Struct.ComponentSchema {
+  collectionName: 'components_section_customers';
+  info: {
+    description: '';
+    displayName: 'customers';
+  };
+  attributes: {
+    customers: Schema.Attribute.Relation<'oneToMany', 'api::customer.customer'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SectionHeroSection extends Struct.ComponentSchema {
   collectionName: 'components_section_hero_sections';
   info: {
@@ -74,6 +86,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'content.meta-pair': ContentMetaPair;
       'content.tag': ContentTag;
+      'section.customers': SectionCustomers;
       'section.hero-section': SectionHeroSection;
       'section.questions': SectionQuestions;
       'section.services': SectionServices;
